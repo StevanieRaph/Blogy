@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f7f5f598;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    text-align: justify;
+    font-size: 18px;
+    overflow-x: hidden;
+}
+
+.contenu {
+    background-color: white;
+    max-width: 1400px;
+}
+
+.cont {
+    max-width: 900px;
+}
+
+.title {
+    color: #11745e;
+}
+
+.subtitle {
+    color: #6e4516;
+}
+
+.col {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+.sect-1 {
+    height: 650px;
+    background-image: url("../images/cover.jpg");
+    background-size: cover;
+    -webkit-clip-path: polygon(0px 0px, 100% 0px, 100% 84%, 0px 100%);
+    clip-path: polygon(0px 0px, 100% 0px, 100% 84%, 0px 100%);
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.sect-2 {
+    height: 450px;
+    width: 900px;
+    padding-top: 10px;
+    padding-left: 50px;
+    color: #6c6c6c;
+}
+
+.sect-3 {
+    height: 700px;
+    background-image: url("../images/img1.jpg");
+    background-size: cover;
+    -webkit-clip-path: polygon(0px 0px, 100% 14%, 100% 86%, 0px 100%);
+    clip-path: polygon(0px 0px, 100% 14%, 100% 86%, 0px 100%);
+    display: flex;
+    align-items: center;
+}
+
+.text-fin {
+    margin-top: 50px;
+    margin-left: 400px;
+    text-align: center;
+}
+
+.circle-white {
+    background-color: white;
+    color: #6c6c6c;
+    padding: 100px 70px 10px 70px;
+    border-radius: 50%;
+    width: 400px;
+    height: 450px;
+}
+
+.centre {
+    text-align: center;
+}
+
+.circle-pad-2 {
+    padding-left: 120px;
+}
+
+p,
+ul {
+    line-height: 2;
+    font-weight: 300;
+}
+
+ul {
+    margin: 0;
+}
+
+ul.list {
+    list-style-type: none;
+}
+
+ul.list>li {
+    text-indent: -5px;
+}
+
+ul.list>li:before {
+    content: "-";
+    margin-right: 5px;
+    text-indent: -5px;
+}
+
+.btn {
+    padding: 10px 30px;
+    margin-left: 110px;
+    font-size: 20px;
+    font-weight: 300px;
+    border-radius: 8px;
+    color: white;
+    background-color: #24a392;
+    text-decoration: none;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #44cbf1;
+}
+
+a.btn:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.text-cont {
+    width: 850px;
+}
+
+.circle-img {
+    width: 10px;
+    margin-left: 70px;
+    text-align: right;
+}
+
+.txt {
+    margin-top: 20px;
+}
+
+.contact {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.fb {
+    margin-left: 540px;
+}
+
+.mail {
+    margin-left: 50px;
+}
+
+.blanc {
+    display: flex;
+}

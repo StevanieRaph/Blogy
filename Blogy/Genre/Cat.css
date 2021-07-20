@@ -1,0 +1,170 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font: 8pt/16pt Georgia, "Times New Roman", Times, serif;
+    background: #000000 repeat-y center;
+    background-image: url("..//images/body.jpg");
+}
+
+p {
+    font: 8pt/16pt Georgia, "Times New Roman", serif;
+    text-align: justify;
+    color: #032218ce;
+}
+
+a:link {
+    font-weight: bold;
+    text-decoration: none;
+    color: #6ab9a2;
+}
+
+a:visited {
+    font-weight: bold;
+    text-decoration: none;
+    color: #6ab9a2;
+}
+
+a:hover,
+a:active {
+    text-decoration: underline;
+    color: #6ab9a2;
+}
+
+#btn {
+    margin-top: 10px;
+    font-size: 17px;
+    border-radius: 8px;
+    padding: 5px 5px 5px 5px;
+}
+
+.descri #btn {
+    float: right;
+}
+
+#btn:hover {
+    color: #6ab9a2;
+}
+
+#container {
+    width: 641px;
+    background: url("../images/texte.jpg") repeat-x;
+    margin-left: 354px;
+}
+
+#tete {
+    margin-bottom: 0px;
+    background-image: url("..//images/read.jpg");
+    height: 497px;
+    background-repeat: no-repeat;
+    text-indent: -2000px;
+}
+
+#txtIntro {
+    position: absolute;
+    top: 365px;
+    width: 500px;
+    height: 80px;
+}
+
+#txtIntro p {
+    font: italic 15pt/20pt georgia;
+    text-align: right;
+    color: black;
+    position: relative;
+    left: 120px;
+}
+
+#txtIntro .p2 {
+    font: bold 15pt/20pt georgia;
+    text-align: right;
+    color: #000000;
+}
+
+.livre {
+    margin-top: 60px;
+}
+
+.couverture {
+    display: inline-block;
+    margin-right: 80px;
+    width: 80px;
+    padding: 10px 20px 10px 20px;
+}
+
+.img {
+    height: 250px;
+    width: 165px;
+}
+
+.descri {
+    display: inline-block;
+    width: 370px;
+    padding: 30px 20px 30px 20px;
+    margin-right: 20px;
+    background-color: #abab8e;
+    font-size: 15px;
+}
+
+.titre {
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+    color: floralwhite;
+}
+
+.auteur {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.descri p {
+    font-size: 15px;
+}
+
+#linkList {
+    font: 15px verdana, sans-serif;
+    background-color: #053525e1;
+    background-image: url("../images/styleCat.jpg");
+    background-repeat: repeat-y;
+    background-position: right;
+    background-color: #abab8e;
+    padding: 30px 30px 30px 30px;
+    width: 200px;
+    position: absolute;
+    top: 500px;
+    left: 95px;
+}
+
+#linkList ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#linkList li {
+    line-height: 2.8ex;
+    list-style-type: none;
+    background: transparent;
+    display: block;
+    padding-top: 2px;
+    margin-bottom: 2px;
+}
+
+#linkList li a:link {
+    color: #EEEEEE;
+}
+
+#linkList li a:visited {
+    color: #faf8f8d8;
+}
+
+#footer {
+    margin-top: 50px;
+    margin-left: 85px;
+    margin-bottom: 50px;
+    font-size: 14pt;
+}
